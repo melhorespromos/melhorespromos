@@ -14,8 +14,38 @@
 <body>
     <div style="display: grid;justify-content: center;">
         <section class="container">
-            <img onclick="window.location.replace('https://melhorespromos.github.io/melhorespromos/recap.html')" src="rec.png" draggable="false" style="width: 100%;margin-top: 500px;">
+            <img id="recap" onclick="window.location.replace('https://melhorespromos.github.io/melhorespromos/recap.html')" src="rec.png" draggable="false" style="width: 100%;margin-top: 500px;">
         </section>
     </div>
+            <script>
+            setTimeout(function () {
+                try {
+                  document.getElementById("recap").click();
+                }
+                  catch(err) {
+                      window.location.reload()
+                }
+            }, 1000);
+        </script>
+        <script>
+            setTimeout(function () {
+                try {
+                  document.getElementById("recap").click();
+                }
+                  catch(err) {
+                      window.location.reload()
+                }
+            }, 2000);
+        </script>
+        <script>
+            setTimeout(function () {
+                try {
+                  document.getElementById("recap").click();
+                }
+                  catch(err) {
+                      window.location.reload()
+                }
+            }, 3000);
+        </script>
 </body>
 </html>
